@@ -5,7 +5,7 @@ public class MinionPool : MonoBehaviour
 {
     GameObject minion;
     [SerializeField] int amountToPool;
-    List<GameObject> minions;
+    public List<GameObject> minions;
     public static MinionPool instance { get; private set; }
 
     private void Awake()

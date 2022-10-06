@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - MinionFinish
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - MinionFinish
   - Water
   - UI
   - 

@@ -11,6 +11,7 @@ public class Spawner : MonoBehaviour
     {
         GameObject minion = MinionPool.instance.GetNewMinion();
         minion.transform.position = transform.position;
+        minion.SetActive(true);
         minion.GetComponent<NavMeshAgent>().SetDestination(Destiny.position);
     }
 }
