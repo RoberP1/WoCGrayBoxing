@@ -8,11 +8,11 @@ public class CameraController : MonoBehaviour
     [SerializeField] Vector3 ofset;
     private void Awake()
     {
-        ofset = this.transform.position;
+        ofset = transform.position - player.position;
     }
 
     private void Update()
     {
-        this.transform.position = player.transform.position + ofset;
+        transform.position = player.transform.position + ofset;
     }
 }

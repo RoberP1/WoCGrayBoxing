@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public float botas;
     void Start()
     {
-        navMesh = this.GetComponent<NavMeshAgent>();
+        navMesh = GetComponent<NavMeshAgent>();
         navMesh.speed = botas;
     }
 

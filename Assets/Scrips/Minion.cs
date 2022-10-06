@@ -5,6 +5,6 @@ public class Minion : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        this.gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 }
